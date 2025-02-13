@@ -13,4 +13,8 @@
     val cleanedList = inputList.map(_.replaceAll("^[^\\p{IsAlphabetic}\\p{IsDigit}]+|[^\\p{IsAlphabetic}\\p{IsDigit}]+$", ""))
 
     println(cleanedList)  // Output: List(Scala, 123, Spark_456, Test789, 你好123)
+
+
+        val cleanedList5 = inputList.map(_.replaceAll("^[^\\p{L}\\p{N}]+|[^\\p{L}\\p{N}]+$", ""))
+
     
